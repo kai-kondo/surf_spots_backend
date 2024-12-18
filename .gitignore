@@ -1,0 +1,25 @@
+# 仮想環境関連
+.venv/
+venv/
+
+# サーバレス関連
+.serverless/
+get_surf_spots.zip
+post_surf_spots.zip
+
+# デプロイ関連ファイル
+deploy.sh
+payload.json
+
+# Pythonキャッシュファイル
+__pycache__/
+*.pyc
+*.pyo
+
+# その他不要ファイル
+trust-policy.json
+test_imports.py
+
+# ローカル環境構築関連ファイル
+local_setup/
+*.local
